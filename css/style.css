@@ -1,0 +1,49 @@
+*{
+    font-family:"Microsoft YaHei Light"  ;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #CEEDC7;
+    padding: 0;
+    margin: 0;
+}
+
+
+#contects{
+    border-collapse: collapse;
+    width:40%;
+    color: black;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 1px 2px 3px #86C8BC;
+    background-color: #FFF6BD;
+}
+
+#contects th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+
+    background-color: #86C8BC;
+}
+
+#contects tr{
+    margin-top: 20px;
+    /*border: 1px solid black;*/
+}
+
+#myTable img{
+    /*padding: 10px;*/
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#myTable tr:hover{
+    background-color: #86C8BC;
+}
+
+
