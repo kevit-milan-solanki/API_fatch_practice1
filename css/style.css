@@ -7,13 +7,31 @@ body {
     background-color: #49a09d;
     padding: 0;
     margin: 0;
-}
+    color: white;
 
+}
+/*.mainBody{*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.mainBody_header{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+
+/*.addUserButton{*/
+/*    background-color: #55608f;*/
+/*    border-style: none;*/
+/*    color: white;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*}*/
 
 #contactTable {
     border-collapse: collapse;
     width: 35%;
-    color: white;
     border: 1px solid white;
     margin: 20px auto 20px auto;
     box-shadow: 1px 2px 3px #5b5959;
@@ -23,8 +41,16 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #55608f;
+    text-align: start;
     font-size: 13px;
+    margin-left: 20px;
+
 }
+#contactTable_head .contactTable_avtar{
+    padding-left: 20px;
+
+}
+
 
 .contactTable_body_image {
     width: 50px;
@@ -40,7 +66,7 @@ body {
     height: 40px;
     width: 40px;
     border-radius: 5px;
-    margin: 15px 25px 15px 20px;
+    margin: 15px 35px 15px 20px;
 
 }
 
