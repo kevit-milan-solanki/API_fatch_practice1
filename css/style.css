@@ -1,49 +1,51 @@
-*{
-    font-family:"Microsoft YaHei Light"  ;
+* {
+    font-family: "Microsoft YaHei Light";
 }
 
-body{
+body {
     box-sizing: border-box;
-    background-color: #CEEDC7;
+    background-color: #49a09d;
     padding: 0;
     margin: 0;
 }
 
 
-#contects{
+#contactTable {
     border-collapse: collapse;
-    width:40%;
-    color: black;
+    width: 35%;
+    color: white;
     border: 1px solid white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left:auto;
-    margin-right:auto;
-    box-shadow: 1px 2px 3px #86C8BC;
-    background-color: #FFF6BD;
+    margin: 20px auto 20px auto;
+    box-shadow: 1px 2px 3px #5b5959;
 }
 
-#contects th{
+#contactTable_head th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: center;
-
-    background-color: #86C8BC;
+    background-color: #55608f;
+    font-size: 13px;
 }
 
-#contects tr{
-    margin-top: 20px;
-    /*border: 1px solid black;*/
+.contactTable_body_image {
+    width: 50px;
+    padding: 0 0 10px 0;
+
 }
 
-#myTable img{
-    /*padding: 10px;*/
+.contactTable_body {
+    font-size: 15px;
+}
+
+.contactTable_body img {
+    height: 40px;
+    width: 40px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 15px 25px 15px 20px;
+
 }
 
-#myTable tr:hover{
-    background-color: #86C8BC;
+.contactTable_body tr:hover {
+    background-color: #55608f;
 }
 
 
