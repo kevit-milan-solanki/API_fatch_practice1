@@ -10,24 +10,6 @@ body {
     color: white;
 
 }
-/*.mainBody{*/
-/*    padding: 20px;*/
-/*}*/
-
-/*.mainBody_header{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-
-
-/*.addUserButton{*/
-/*    background-color: #55608f;*/
-/*    border-style: none;*/
-/*    color: white;*/
-/*    padding: 10px;*/
-/*    border-radius: 5px;*/
-/*}*/
 
 #contactTable {
     border-collapse: collapse;
